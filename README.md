@@ -18,3 +18,9 @@
 |3_3|가장 큰 수|https://programmers.co.kr/learn/courses/30/lessons/42746|
 |3_4|다리를 지나는 트럭|https://programmers.co.kr/learn/courses/30/lessons/42583|
 |3_5|구명보트|https://programmers.co.kr/learn/courses/30/lessons/42885|
+|4_1|카펫|https://programmers.co.kr/learn/courses/30/lessons/42842|
+|4_2|네트워크|https://programmers.co.kr/learn/courses/30/lessons/43162|
+|5_1|디스크 컨트롤러|https://programmers.co.kr/learn/courses/30/lessons/42627|
+|5_2|타겟 넘버|https://programmers.co.kr/learn/courses/30/lessons/43165|
+|6_1|소수 찾기|https://programmers.co.kr/learn/courses/30/lessons/42839|
+|6_2|H-Index|https://programmers.co.kr/learn/courses/30/lessons/42747||
