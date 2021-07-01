@@ -22,3 +22,9 @@
 |15|타겟 넘버|https://programmers.co.kr/learn/courses/30/lessons/43165|🟢|
 |16|소수 찾기|https://programmers.co.kr/learn/courses/30/lessons/42839|🟢|
 |17|H-Index|https://programmers.co.kr/learn/courses/30/lessons/42747|🟢|
+|18|신규 아이디 추천|https://programmers.co.kr/learn/courses/30/lessons/72410|🟢|
+|19|체육복|https://programmers.co.kr/learn/courses/30/lessons/42862|🟢|
+|20|크레인 인형뽑기 게임|https://programmers.co.kr/learn/courses/30/lessons/64061|🟢|
+|21|위장|https://programmers.co.kr/learn/courses/30/lessons/42578|🟢|
+|22|베스트앨범|https://programmers.co.kr/learn/courses/30/lessons/42579|🟢|
+|23|스킬트리|https://programmers.co.kr/learn/courses/30/lessons/49993|🟢|
