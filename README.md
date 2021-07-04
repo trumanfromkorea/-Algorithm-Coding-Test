@@ -29,3 +29,5 @@
 |22|베스트앨범|https://programmers.co.kr/learn/courses/30/lessons/42579|🟢|
 |23|스킬트리|https://programmers.co.kr/learn/courses/30/lessons/49993|🟢|
 |24|프린터|https://programmers.co.kr/learn/courses/30/lessons/42587|🟡|
+|25|영어 끝말잇기|https://programmers.co.kr/learn/courses/30/lessons/12981|🟢|
+|26|오픈채팅방|https://programmers.co.kr/learn/courses/30/lessons/42888|🟢|
