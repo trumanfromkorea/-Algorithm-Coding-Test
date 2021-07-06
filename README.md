@@ -32,3 +32,4 @@
 |25|영어 끝말잇기|https://programmers.co.kr/learn/courses/30/lessons/12981|🟢|
 |26|오픈채팅방|https://programmers.co.kr/learn/courses/30/lessons/42888|🟢|
 |27|괄호 회전하기|https://programmers.co.kr/learn/courses/30/lessons/76502|🟢|
+|28|124 나라의 숫자|https://programmers.co.kr/learn/courses/30/lessons/12899|🟢|
