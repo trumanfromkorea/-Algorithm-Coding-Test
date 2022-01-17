@@ -1,4 +1,4 @@
-# Programmers Coding Test
+# Algorithm & Coding Test
 > 📅 JAN 17, 2021 ~
 
 ### 👊 코딩테스트 박살내기 👊
