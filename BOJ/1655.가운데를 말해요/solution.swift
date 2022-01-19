@@ -1,162 +1,97 @@
 // 백준 - 가운데를 말해요
 import Foundation
 
-var myMaxHeap = Heap<Int>([], isMaxHeap: true)
-var myMinHeap = Heap<Int>([], isMaxHeap: false)
-
-let n: Int = Int(readLine()!)!
-var answers: [Int] = []
-
-for _ in 0 ..< n {
-    let input: Int = Int(readLine()!)!
-
-    if myMaxHeap.count == myMinHeap.count {
-        myMaxHeap.push(input)
-    } else {
-        myMinHeap.push(input)
-    }
-
-    let isEmpty: Bool = myMaxHeap.isEmpty || myMinHeap.isEmpty ? true : false
-
-    if !isEmpty && myMaxHeap.root! > myMinHeap.root! {
-        let max = myMaxHeap.popRoot()!
-        let min = myMinHeap.popRoot()!
-
-        myMaxHeap.push(min)
-        myMinHeap.push(max)
-    }
-
-    answers.append(myMaxHeap.root!)
-}
-
-//myMaxHeap.printHeap()
-//myMinHeap.printHeap()
-//
-//print(answers)
-
- for i in 0 ..< n {
-    print(answers[i])
- }
-
-class Heap<T: Comparable> {
-    var heapArray: [T]
+struct Heap<T> {
+    var heap: [T]
+    var compare: (T, T) -> Bool
 
     var root: T? {
-        if isMaxHeap {
-            maxHeapify()
+        if heap.isEmpty {
+            return nil
         } else {
-            minHeapify()
+            return heap[0]
         }
-        return heapArray.first
     }
 
-    var count: Int {
-        return heapArray.count
+    mutating func shiftUp(i: Int) {
+        var now = i
+
+        while now > 0 {
+            let parent = (now - 1) / 2
+
+            if compare(heap[now], heap[parent]) {
+                heap.swapAt(now, parent)
+                now = parent
+            } else {
+                break
+            }
+        }
     }
 
-    var isEmpty: Bool {
-        return heapArray.isEmpty
+    mutating func shiftDown(i: Int) {
+        var now = i
+        var child = 2 * i + 1
+        let count = heap.count
+
+        while child < count {
+            if child + 1 < count {
+                child = compare(heap[child], heap[child + 1]) ? child : child + 1
+            }
+            if compare(heap[child], heap[now]) {
+                heap.swapAt(now, child)
+                now = child
+                child = 2 * now + 1
+            } else {
+                break
+            }
+        }
     }
 
-    var isMaxHeap: Bool
-
-    init(_ n: [T], isMaxHeap: Bool) {
-        heapArray = n
-        self.isMaxHeap = isMaxHeap
+    mutating func insert(n: T) {
+        heap.append(n)
+        shiftUp(i: heap.count - 1)
     }
 
-    func hasLeftChild(_ parent: Int) -> Bool {
-        if parent * 2 + 1 >= count {
-            return false
+    init(heap: [T] = [], compare: @escaping (T, T) -> Bool) {
+        self.heap = heap
+        self.compare = compare
+    }
+}
+
+var maxHeap = Heap<Int> { $0 > $1 }
+var minHeap = Heap<Int> { $0 < $1 }
+
+let n = Int(readLine()!)!
+var answer = ""
+
+if n == 1 {
+    print(Int(readLine()!)!)
+} else {
+    maxHeap.insert(n: Int(readLine()!)!)
+    answer += "\(maxHeap.root!)\n"
+
+    for i in 2 ... n {
+        let input = Int(readLine()!)!
+
+        if i % 2 == 0 {
+            minHeap.insert(n: input)
         } else {
-            return true
-        }
-    }
-
-    func hasRightChild(_ parent: Int) -> Bool {
-        if parent * 2 + 2 >= count {
-            return false
-        } else {
-            return true
-        }
-    }
-
-    func parentIndex(_ child: Int) -> Int { return child / 2 }
-    func leftChildIndex(_ parent: Int) -> Int { return parent * 2 + 1 }
-    func rightChildIndex(_ parent: Int) -> Int { return parent * 2 + 2 }
-
-    func printHeap() {
-        print(heapArray)
-    }
-
-    func maxHeapify() {
-        isMaxHeap = true
-        var i = count / 2
-
-        while i >= 0 {
-            var bigChild: Int = 0
-
-            if hasLeftChild(i) && hasRightChild(i) {
-                if heapArray[leftChildIndex(i)] <= heapArray[rightChildIndex(i)] {
-                    bigChild = rightChildIndex(i)
-                } else {
-                    bigChild = leftChildIndex(i)
-                }
-
-            } else if hasLeftChild(i) && !hasRightChild(i) {
-                bigChild = leftChildIndex(i)
-            } else if !hasLeftChild(i) && hasRightChild(i) {
-                i -= 1
-                continue
-            }
-
-            if heapArray[bigChild] >= heapArray[i] {
-                heapArray.swapAt(bigChild, i)
-            }
-            i -= 1
-        }
-    }
-
-    func minHeapify() {
-        isMaxHeap = false
-        var i = count / 2
-        while i >= 0 {
-            var smallChild: Int = 0
-
-            if hasLeftChild(i) && hasRightChild(i) {
-                if heapArray[leftChildIndex(i)] >= heapArray[rightChildIndex(i)] {
-                    smallChild = rightChildIndex(i)
-                } else {
-                    smallChild = leftChildIndex(i)
-                }
-
-            } else if hasLeftChild(i) && !hasRightChild(i) {
-                smallChild = leftChildIndex(i)
-            } else if !hasLeftChild(i) && hasRightChild(i) {
-                i -= 1
-                continue
-            }
-
-            if heapArray[smallChild] <= heapArray[i] {
-                heapArray.swapAt(smallChild, i)
-            }
-            i -= 1
-        }
-    }
-
-    func popRoot() -> T? {
-        isMaxHeap ? maxHeapify() : minHeapify()
-
-        if !heapArray.isEmpty {
-            heapArray.swapAt(heapArray.count - 1, 0)
+            maxHeap.insert(n: input)
         }
 
-        let result = heapArray.popLast()
-        return result
+        let a = maxHeap.root!
+        let b = minHeap.root!
+
+        if a > b {
+            minHeap.heap[0] = a
+            maxHeap.heap[0] = b
+        }
+
+        if i % 2 == 0 { maxHeap.shiftDown(i: 0) }
+        else { minHeap.shiftDown(i: 0) }
+
+        answer += "\(maxHeap.root!)\n"
     }
 
-    func push(_ n: T) {
-        heapArray.append(n)
-        isMaxHeap ? maxHeapify() : minHeapify()
-    }
+    print(answer)
 }
