@@ -40,4 +40,5 @@
 
 |번호|문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
 |---|---|---|
+|1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|🟢|
 |1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|🟡|
