@@ -43,3 +43,4 @@
 |1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|🟡||
 |1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|🟡||
 |10830|[행렬 제곱](https://www.acmicpc.net/problem/10830)|🟢|🟡|
+|1976|[여행 가자](https://www.acmicpc.net/problem/1976)|🟢|🟡|
