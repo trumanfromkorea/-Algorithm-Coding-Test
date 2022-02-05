@@ -44,3 +44,4 @@
 |1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|🟡||
 |10830|[행렬 제곱](https://www.acmicpc.net/problem/10830)|🟢|🟡|
 |1976|[여행 가자](https://www.acmicpc.net/problem/1976)|🟢|🟡|
+|2309|[일곱 난쟁이](https://www.acmicpc.net/problem/2309)||🟢|
