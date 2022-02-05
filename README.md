@@ -46,3 +46,4 @@
 |1976|[여행 가자](https://www.acmicpc.net/problem/1976)|🟢|🟡|
 |2309|[일곱 난쟁이](https://www.acmicpc.net/problem/2309)|🟢|🟢|
 |9012|[괄호](https://www.acmicpc.net/problem/9012)|🟢|🟢|
+|1316|[그룹 단어 체커](https://www.acmicpc.net/problem/1316)|🟢|🟡|
