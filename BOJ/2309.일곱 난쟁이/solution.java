@@ -32,8 +32,8 @@ public class Main {
                 int a = heightList.get(i);
                 int b = heightList.get(j);
                 if (a + b == remains) {
-                    heightList.remove(Integer.valueOf(a));
-                    heightList.remove(Integer.valueOf(b));
+                    heightList.remove(j);
+                    heightList.remove(i);
                     return;
                 }
             }
