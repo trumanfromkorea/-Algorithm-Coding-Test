@@ -35,6 +35,7 @@
 |[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|⚪️|||
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)|⚪️|||
 |[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|⚪️|||
+|[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)|||🟢|
 
 ## BOJ
 
