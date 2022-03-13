@@ -1,53 +1,34 @@
-
 import Foundation
 
-public class TreeNode<T: Comparable> {
-    var value: T
-    var leftChild: TreeNode?
-    var rightChild: TreeNode?
-    
-    init(_ value: T){
-        self.value = value
-    }
-    
-    func insert(_ value: T){
-        if value < self.value {
-            if self.leftChild == nil {
-                self.leftChild = TreeNode(value)
-            } else {
-                self.leftChild?.insert(value)
-            }
-        } else {
-            if self.rightChild == nil{
-                self.rightChild = TreeNode(value)
-            } else {
-                self.rightChild?.insert(value)
-            }
+func findHigherIndex(start: Int, end: Int, compare: Int) -> Int {
+    var higherIndex: Int = end
+
+    for i in start ..< end {
+        if treeList[i] > compare {
+            higherIndex = i
+            break
         }
     }
+    
+    return higherIndex
 }
 
-func postOrder(_ node: TreeNode<Int>){
-    if node.leftChild != nil {
-        postOrder(node.leftChild!)
+func postOrder(start: Int, end: Int) {
+    if start >= end {
+        return
     }
-    if node.rightChild != nil {
-        postOrder(node.rightChild!)
-    }
-    print(node.value)
     
+    let higherIndex: Int = findHigherIndex(start: start + 1, end: end, compare: treeList[start])
+    
+    postOrder(start: start + 1, end: higherIndex)
+    postOrder(start: higherIndex, end: end)
+    print(treeList[start])
 }
 
-var tree: TreeNode<Int> = TreeNode<Int>(Int(readLine()!)!)
+var treeList: [Int] = []
 
-while true {
-    let input: String? = readLine()
-    
-    if input == nil || input == "" {
-        break
-    }
-    
-    tree.insert(Int(input!)!)
+while let input = readLine(), let n = Int(input) {
+    treeList.append(n)
 }
 
-postOrder(tree)
+postOrder(start: 0, end: treeList.count)
