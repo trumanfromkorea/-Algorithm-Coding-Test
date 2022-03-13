@@ -49,3 +49,4 @@
 |9012|[괄호](https://www.acmicpc.net/problem/9012)|🟢|🟢|
 |1316|[그룹 단어 체커](https://www.acmicpc.net/problem/1316)|🟢|🟡|
 |10866|[덱](https://www.acmicpc.net/problem/10866)|🟢||
+|5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|🟢||
