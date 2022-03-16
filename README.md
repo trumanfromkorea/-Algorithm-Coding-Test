@@ -52,3 +52,4 @@
 |5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|🟢||
 |19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|🟢||
 |18808|[스티커 붙이기](https://www.acmicpc.net/problem/18808)|🟢||
+|1238|[파티](https://www.acmicpc.net/problem/1238)|🟢||
