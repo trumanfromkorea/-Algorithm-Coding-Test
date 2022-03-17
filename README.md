@@ -53,3 +53,4 @@
 |19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|🟢||
 |18808|[스티커 붙이기](https://www.acmicpc.net/problem/18808)|🟢||
 |1238|[파티](https://www.acmicpc.net/problem/1238)|🟢||
+|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
