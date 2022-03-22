@@ -54,3 +54,4 @@
 |18808|[스티커 붙이기](https://www.acmicpc.net/problem/18808)|🟢||
 |1238|[파티](https://www.acmicpc.net/problem/1238)|🟢||
 |12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
+|16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
