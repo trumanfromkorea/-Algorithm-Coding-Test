@@ -2,6 +2,26 @@
 
 아기개발자 걸음마 시작 🐥
 
+## BOJ
+
+|번호|문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
+|---|---|---|---|
+|1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|🟡||
+|1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|🟡||
+|10830|[행렬 제곱](https://www.acmicpc.net/problem/10830)|🟢|🟡|
+|1976|[여행 가자](https://www.acmicpc.net/problem/1976)|🟢|🟡|
+|2309|[일곱 난쟁이](https://www.acmicpc.net/problem/2309)|🟢|🟢|
+|9012|[괄호](https://www.acmicpc.net/problem/9012)|🟢|🟢|
+|1316|[그룹 단어 체커](https://www.acmicpc.net/problem/1316)|🟢|🟡|
+|10866|[덱](https://www.acmicpc.net/problem/10866)|🟢||
+|5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|🟡||
+|19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|🟢||
+|18808|[스티커 붙이기](https://www.acmicpc.net/problem/18808)|🟢||
+|1238|[파티](https://www.acmicpc.net/problem/1238)|🟡||
+|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
+|16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
+|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟡||
+
 ## 프로그래머스
 
 |문제|<img alt="python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
@@ -37,22 +57,3 @@
 |[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|⚪️|||
 |[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)||🟢|🟢|
 
-## BOJ
-
-|번호|문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
-|---|---|---|---|
-|1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|🟡||
-|1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|🟡||
-|10830|[행렬 제곱](https://www.acmicpc.net/problem/10830)|🟢|🟡|
-|1976|[여행 가자](https://www.acmicpc.net/problem/1976)|🟢|🟡|
-|2309|[일곱 난쟁이](https://www.acmicpc.net/problem/2309)|🟢|🟢|
-|9012|[괄호](https://www.acmicpc.net/problem/9012)|🟢|🟢|
-|1316|[그룹 단어 체커](https://www.acmicpc.net/problem/1316)|🟢|🟡|
-|10866|[덱](https://www.acmicpc.net/problem/10866)|🟢||
-|5639|[이진 검색 트리](https://www.acmicpc.net/problem/5639)|🟢||
-|19238|[스타트 택시](https://www.acmicpc.net/problem/19238)|🟢||
-|18808|[스티커 붙이기](https://www.acmicpc.net/problem/18808)|🟢||
-|1238|[파티](https://www.acmicpc.net/problem/1238)|🟢||
-|12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
-|16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
-|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟢||
