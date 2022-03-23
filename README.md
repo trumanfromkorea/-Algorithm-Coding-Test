@@ -1,6 +1,6 @@
 # 👊 알고리즘 박살내기 👊
 
-아기개발자 걸음마 떼기 🐥
+아기개발자 걸음마 시작 🐥
 
 ## 프로그래머스
 
@@ -55,3 +55,4 @@
 |1238|[파티](https://www.acmicpc.net/problem/1238)|🟢||
 |12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
 |16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
+|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟢||
