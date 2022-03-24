@@ -25,6 +25,7 @@
 |14867|[물통](https://www.acmicpc.net/problem/14867)|🟡||
 |2748|[피보나치 수 2](https://www.acmicpc.net/problem/2748)|🟢||
 |17626|[Four Seasons](https://www.acmicpc.net/problem/17626)|🟡||
+|2293|[동전 1](https://www.acmicpc.net/problem/2293)|🟡||
 
 ## 프로그래머스
 
