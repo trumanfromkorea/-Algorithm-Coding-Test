@@ -22,6 +22,7 @@
 |16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
 |11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟡||
 |11437|[LCA](https://www.acmicpc.net/problem/11437)|🟢||
+|14867|[물통](https://www.acmicpc.net/problem/14867)|🟡||
 
 ## 프로그래머스
 
