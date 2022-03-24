@@ -21,6 +21,7 @@
 |12865|[평범한 배낭](https://www.acmicpc.net/problem/12865)|🟢||
 |16236|[아기 상어](https://www.acmicpc.net/problem/16236)|🟢||
 |11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟡||
+|11437|[LCA](https://www.acmicpc.net/problem/11437)|🟢||
 
 ## 프로그래머스
 
