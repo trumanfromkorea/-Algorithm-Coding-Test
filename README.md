@@ -23,6 +23,7 @@
 |11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|🟡||
 |11437|[LCA](https://www.acmicpc.net/problem/11437)|🟢||
 |14867|[물통](https://www.acmicpc.net/problem/14867)|🟡||
+|2748|[피보나치 수 2](https://www.acmicpc.net/problem/2748)|🟢||
 
 ## 프로그래머스
 
