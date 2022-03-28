@@ -27,6 +27,8 @@
 |17626|[Four Seasons](https://www.acmicpc.net/problem/17626)|🟡||
 |2293|[동전 1](https://www.acmicpc.net/problem/2293)|🟡||
 |1912|[연속합](https://www.acmicpc.net/problem/1912)|🟡||
+|9655|[돌 문제](https://www.acmicpc.net/problem/9655)|🟢||
+|11726|[2×n 타일링](https://www.acmicpc.net/problem/11726)|🟢||
 
 ## 프로그래머스
 
