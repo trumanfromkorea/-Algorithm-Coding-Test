@@ -29,6 +29,7 @@
 |1912|[연속합](https://www.acmicpc.net/problem/1912)|🟡||
 |9655|[돌 문제](https://www.acmicpc.net/problem/9655)|🟢||
 |11726|[2×n 타일링](https://www.acmicpc.net/problem/11726)|🟢||
+|2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|🟡||
 
 ## 프로그래머스
 
