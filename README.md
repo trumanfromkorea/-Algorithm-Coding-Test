@@ -52,7 +52,7 @@
 |[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|⚪️|🟢||
 |[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|⚪️|||
 |[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|⚪️|||
-|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|⚪️|||
+|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|⚪️|🟢||
 |[H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)|⚪️|||
 |[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|⚪️|||
 |[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|⚪️|||
