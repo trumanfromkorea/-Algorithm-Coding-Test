@@ -31,6 +31,7 @@
 |11726|[2×n 타일링](https://www.acmicpc.net/problem/11726)|🟢||
 |2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|🟡||
 |1516|[게임 개발](https://www.acmicpc.net/problem/1516)|🟡||
+|1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|🟢||
 
 ## 프로그래머스
 
