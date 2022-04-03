@@ -1,87 +1,31 @@
-// 테스트케이스 8개중 2개 시간초과
-
 import Foundation
 
-func solution(_ numbers: [Int], _ k: Int) -> Int {
-    var indexes: [[Int]] = []
+// 실행부
 
-    let n = numbers.count
-    var num = numbers
+let result = solution([3, 7, 2, 8, 6, 4, 5, 1], 3)
 
-    indexes = getIndexes(Array(0 ..< n))
+print(result)
 
-    for i in 0 ..< indexes.count {
-        let comIdx = CIndexes(indexes, i)
+// 선언부
 
-        for com in comIdx {
-            print(com)
-            for c in com {
-                num.swapAt(c[0], c[1])
-            }
-            if satisfied(num, k) {
-                return com.count
-            } else {
-                num = numbers
-            }
-        }
+func solution(_ _numbers: [Int], _ _k: Int) -> Int {
+    let k = _k
+    var numbers = _numbers
+
+    var visited: [Bool] = Array(repeating: false, count: numbers.count)
+    var answer: Int = .max
+
+    if satisfied(numbers, k) {
+        return 0
     }
 
-    return -1
+    var permuted: [Int] = Array(repeating: 0, count: numbers.count)
+    checkSwap(count: 0, numbers: numbers, permuted: &permuted, visited: &visited, k: k, answer: &answer)
+
+    return answer == .max ? -1 : answer
 }
 
-func getIndexes(_ nums: [Int]) -> [[Int]] {
-    var result: [[Int]] = []
-    var visited = Array(repeating: false, count: nums.count)
-
-    func combination(_ index: Int, _ now: [Int]) {
-        if now.count == 2 {
-            result.append(now)
-            return
-        }
-
-        for i in index ..< nums.count {
-            if visited[i] {
-                continue
-            } else {
-                visited[i] = true
-                combination(i + 1, now + [nums[i]])
-                visited[i] = false
-            }
-        }
-    }
-
-    combination(0, [])
-
-    return result
-}
-
-func CIndexes(_ nums: [[Int]], _ n: Int) -> [[[Int]]] {
-    var result: [[[Int]]] = []
-    var visited = Array(repeating: false, count: nums.count)
-
-    func combination(_ index: Int, _ now: [[Int]]) {
-        if now.count == n {
-            result.append(now)
-            return
-        }
-
-        for i in index ..< nums.count {
-            if visited[i] {
-                continue
-            } else {
-                visited[i] = true
-                combination(i + 1, now + [nums[i]])
-                visited[i] = false
-            }
-        }
-    }
-
-    combination(0, [])
-
-    return result
-}
-
-// k 이하임을 만족하는지
+// 모든 조건에 만족하는지
 func satisfied(_ numbers: [Int], _ k: Int) -> Bool {
     for i in 0 ..< numbers.count - 1 {
         if abs(numbers[i] - numbers[i + 1]) > k {
@@ -92,19 +36,58 @@ func satisfied(_ numbers: [Int], _ k: Int) -> Bool {
     return true
 }
 
-// 모든 순서쌍 구하기
-func permutation(_ numbers: [[Int]], _ n: Int, _ k: Int, _ P: inout [[[Int]]]) {
-    if n == 0 {
-        P.append(numbers)
+// swap 검사 (?)
+func checkSwap(
+    count: Int,
+    numbers: [Int],
+    permuted: inout [Int],
+    visited: inout [Bool],
+    k: Int,
+    answer: inout Int
+) {
+    let length: Int = numbers.count
 
-    } else {
-        var num = numbers
-        permutation(num, n - 1, k, &P)
-
-        for i in 0 ..< n {
-            num.swapAt(i, n)
-            permutation(num, n - 1, k, &P)
-            num.swapAt(i, n)
+    if count == length {
+        if !satisfied(permuted, k) {
+            return
         }
+
+        var tempArray = permuted
+        var swapCount = 0
+
+        for i in 0 ..< length {
+            if tempArray[i] == numbers[i] {
+                continue
+            }
+
+            for j in 0 ..< length {
+                if numbers[i] == tempArray[j] {
+                    swapCount += 1
+
+                    tempArray.swapAt(i, j)
+
+                    if swapCount > answer {
+                        return
+                    }
+
+                    break
+                }
+            }
+        }
+        if swapCount != 0 {
+            answer = min(answer, swapCount)
+        }
+        return
+    }
+
+    for i in 0 ..< length {
+        if visited[i] {
+            continue
+        }
+
+        visited[i] = true
+        permuted[count] = numbers[i]
+        checkSwap(count: count + 1, numbers: numbers, permuted: &permuted, visited: &visited, k: k, answer: &answer)
+        visited[i] = false
     }
 }
