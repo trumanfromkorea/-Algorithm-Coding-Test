@@ -32,6 +32,7 @@
 |2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|🟡||
 |1516|[게임 개발](https://www.acmicpc.net/problem/1516)|🟡||
 |1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|🟢||
+|1244|[스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)|🟢||
 
 ## 프로그래머스
 
