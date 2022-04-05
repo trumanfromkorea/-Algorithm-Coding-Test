@@ -33,6 +33,8 @@
 |1516|[게임 개발](https://www.acmicpc.net/problem/1516)|🟡||
 |1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|🟢||
 |1244|[스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)|🟢||
+|11048|[이동하기](https://www.acmicpc.net/problem/11048)|||
+|2580|[스도쿠](https://www.acmicpc.net/problem/2580)|||
 
 ## 프로그래머스
 
@@ -68,4 +70,4 @@
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)|⚪️|||
 |[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|⚪️|🟢||
 |[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)||🟢|🟢|
-
+|[N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)||||
