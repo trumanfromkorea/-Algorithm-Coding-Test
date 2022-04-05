@@ -33,7 +33,7 @@
 |1516|[게임 개발](https://www.acmicpc.net/problem/1516)|🟡||
 |1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|🟢||
 |1244|[스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)|🟢||
-|11048|[이동하기](https://www.acmicpc.net/problem/11048)|||
+|11048|[이동하기](https://www.acmicpc.net/problem/11048)|🟡||
 |2580|[스도쿠](https://www.acmicpc.net/problem/2580)|||
 
 ## 프로그래머스
