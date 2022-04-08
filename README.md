@@ -35,6 +35,7 @@
 |1244|[스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)|🟢||
 |11048|[이동하기](https://www.acmicpc.net/problem/11048)|🟡||
 |2580|[스도쿠](https://www.acmicpc.net/problem/2580)|🟡||
+|3040|[백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040)|🟢||
 
 ## 프로그래머스
 
