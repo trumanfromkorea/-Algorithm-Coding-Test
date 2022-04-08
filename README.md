@@ -36,6 +36,7 @@
 |11048|[이동하기](https://www.acmicpc.net/problem/11048)|🟡||
 |2580|[스도쿠](https://www.acmicpc.net/problem/2580)|🟡||
 |3040|[백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040)|🟢||
+|10974|[모든 순열](https://www.acmicpc.net/problem/10974)|🟡||
 
 ## 프로그래머스
 
