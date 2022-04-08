@@ -37,6 +37,7 @@
 |2580|[스도쿠](https://www.acmicpc.net/problem/2580)|🟡||
 |3040|[백설 공주와 일곱 난쟁이](https://www.acmicpc.net/problem/3040)|🟢||
 |10974|[모든 순열](https://www.acmicpc.net/problem/10974)|🟡||
+|2581|[소수](https://www.acmicpc.net/problem/2581)|🟢||
 
 ## 프로그래머스
 
