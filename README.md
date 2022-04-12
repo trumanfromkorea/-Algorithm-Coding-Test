@@ -39,6 +39,7 @@
 |10974|[모든 순열](https://www.acmicpc.net/problem/10974)|🟢||
 |2581|[소수](https://www.acmicpc.net/problem/2581)|🟢||
 |1759|[암호 만들기](https://www.acmicpc.net/problem/1759)|🟢||
+|14502|[연구소](https://www.acmicpc.net/problem/14502)|🟢||
 
 ## 프로그래머스
 
