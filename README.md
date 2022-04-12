@@ -40,6 +40,7 @@
 |2581|[소수](https://www.acmicpc.net/problem/2581)|🟢||
 |1759|[암호 만들기](https://www.acmicpc.net/problem/1759)|🟢||
 |14502|[연구소](https://www.acmicpc.net/problem/14502)|🟢||
+|2206|[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)|🟡||
 
 ## 프로그래머스
 
