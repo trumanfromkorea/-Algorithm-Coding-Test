@@ -1,42 +1,40 @@
 import Foundation
 
 let n: Int = Int(readLine()!)!
+
 let array: [Int] = Array(1 ... n)
 
+var temp: [Int] = []
 var visited: [Bool] = Array(repeating: false, count: n)
-var result: [[Int]] = []
 
-var permuted: [Int] = []
+var index: Int = 0
+var answer: String = ""
 
-permutation()
+permutations(0)
 
-// MARK: - 선언부
+answer.removeLast()
+print(answer)
 
-func permutation() {
-    if permuted.count == n {
-        printArray()
+// MARK: - 선언
+
+func permutations(_ index: Int) {
+    if index == n {
+        for t in temp {
+            answer += "\(t) "
+        }
+        answer += "\n"
         return
     }
 
-    for i in 0 ..< n {
-        if visited[i] { continue }
+    for i in 1 ... n {
+        if !visited[i - 1] {
+            visited[i - 1] = true
+            temp.append(i)
 
-        visited[i] = true
-        permuted.append(i + 1)
+            permutations(index + 1)
 
-        permutation()
-
-        visited[i] = false
-        permuted.removeLast()
+            visited[i - 1] = false
+            temp.removeLast()
+        }
     }
-}
-
-func printArray() {
-    var output: String = ""
-    
-    for p in permuted {
-        output += "\(p) "
-    }
-    
-    print(output)
 }
