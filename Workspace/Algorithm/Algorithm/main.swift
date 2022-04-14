@@ -4,42 +4,44 @@ import Foundation
 
 let n = Int(readLine()!)!
 
-var points: [Int] = []
+var array: [Int] = [-1]
+var temp: [Int] = []
 
-var answer = 0
+var answer: [Int] = []
 
-findPoint(0)
+getArray()
+solution()
 
-print(answer)
 
 // MARK: - 선언
 
-func findPoint(_ index: Int) {
-    if index == n {
-        answer += 1
-        return
-    }
-
-    for i in 0 ..< n {
-        if points.contains(i) {
-            continue
-        } else if isDiagonal(i) {
-            continue
-        }
-
-        points.append(i)
-
-        findPoint(index + 1)
-
-        points.removeLast()
+func getArray() {
+    for _ in 0 ..< n {
+        array.append(Int(readLine()!)!)
     }
 }
 
-func isDiagonal(_ x: Int) -> Bool {
-    for i in 0 ..< points.count {
-        if abs(points.count - i) == abs(x - points[i]) {
-            return true
+func DFS(_ index: Int) -> Int{
+    if temp.contains(index) {
+        return index
+    }
+    
+    temp.append(index)
+    
+    return DFS(array[index])
+}
+
+func solution() {
+    for i in 1 ... n {
+        temp.removeAll()
+        
+        if DFS(i) == i {
+            answer.append(i)
         }
     }
-    return false
+    
+    print(answer.count)
+    for item in answer {
+        print(item)
+    }
 }
