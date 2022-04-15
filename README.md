@@ -50,7 +50,7 @@
 ### 레벨 1
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
 |---|---|---|
-|[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|||
+|[신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)|🟢||
 |[크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)|||
 |[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|||
 |[K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)|||
