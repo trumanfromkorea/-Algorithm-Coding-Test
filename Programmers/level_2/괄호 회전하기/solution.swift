@@ -11,6 +11,7 @@ func solution(_ s: String) -> Int {
     }
 
     return answer
+    
 }
 
 func isValidBracket(_ bracket: String) -> Bool {

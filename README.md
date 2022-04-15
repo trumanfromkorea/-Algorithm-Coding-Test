@@ -70,7 +70,7 @@
 |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|||
 |[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|||
 |[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|||
-|[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|||
+|[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|🟢||
 |[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)|||
 |[다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)|🟢||
 |[H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)|||
