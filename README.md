@@ -44,6 +44,7 @@
 |2751|[수 정렬하기 2](https://www.acmicpc.net/problem/2751)|🟢||
 |9663|[N-Queen](https://www.acmicpc.net/problem/9663)|🟡||
 |2668|[숫자고르기](https://www.acmicpc.net/problem/2668)|🟡||
+|3190|[뱀](https://www.acmicpc.net/problem/3190)|🟢||
 
 ## 프로그래머스
 
