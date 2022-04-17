@@ -23,7 +23,8 @@ print(answer)
 
 func combinations(_ index: Int) {
     if index == n {
-        let vCount = countVowels(temp)
+        let vCount = countVowels(temp) 
+        // 모음,자음 개수 따지기
         if vCount < 1 || n - vCount < 2 {
             return
         }
@@ -32,8 +33,10 @@ func combinations(_ index: Int) {
         return
     }
 
+    // for 문 시작점을 0 이 아니라 이전 인덱스부터 하면 visited 필요없음
     for i in 0 ..< m {
         if !visited[i] {
+            // 알파벳 순서 검사
             if !temp.isEmpty && temp.last! > letters[i] {
                 continue
             }

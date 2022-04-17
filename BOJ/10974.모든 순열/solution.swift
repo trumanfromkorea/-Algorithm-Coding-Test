@@ -23,6 +23,7 @@ func permutations(_ index: Int) {
             answer += "\(t) "
         }
         answer += "\n"
+        
         return
     }
 

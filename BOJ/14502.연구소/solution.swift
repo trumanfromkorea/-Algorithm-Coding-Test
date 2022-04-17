@@ -39,6 +39,7 @@ struct Point {
     var j: Int
 }
 
+// 빈칸, 바이러스가 있는 칸을 찾는 메소드
 func findEmptyBlock() {
     for i in 0 ..< n {
         for j in 0 ..< m {
@@ -51,6 +52,7 @@ func findEmptyBlock() {
     }
 }
 
+// 바이러스 퍼져나가게 하는 BFS
 func BFS(_ start: Point) {
     var queue = DoubleStackQueue<Point>()
 
@@ -79,6 +81,7 @@ func isInBound(_ i: Int, _ j: Int) -> Bool {
     return n > i && i >= 0 && m > j && j >= 0
 }
 
+// 안전구역 찾는 메소드
 func findSafeArea() {
     var count = 0
 
@@ -93,7 +96,12 @@ func findSafeArea() {
     answer = max(answer, count)
 }
 
+// 벽의 개수가 n 개일때는 이게 안좋은방법
+// 조합을 먼저 구해놔야 좋은 방법인듯 
+
 func solution() {
+    // 빈칸, 즉 벽을 넣을 수 있는 곳을 찾아서 완전탐색
+    // 3개의 벽을 넣을 수 있는 곳을 찾아야 하기 때문에 반복문을 3중으로
     while a < emptyBlock.count - 2 {
         let emptyA = emptyBlock[a]
         b = a + 1
@@ -101,20 +109,25 @@ func solution() {
         while b < emptyBlock.count - 1 {
             let emptyB = emptyBlock[b]
             c = b + 1
+
             while c < emptyBlock.count {
                 let emptyC = emptyBlock[c]
 
+                // 벽을 설정해놓은 후
                 board[emptyA.i][emptyA.j] = 1
                 board[emptyB.i][emptyB.j] = 1
                 board[emptyC.i][emptyC.j] = 1
-
+                
+                // 바이러스가 퍼져나가게 한다
                 visited = Array(repeating: Array(repeating: false, count: m), count: n)
                 for virus in virusBlock {
                     BFS(virus)
                 }
 
+                // 안전구역의 수를 찾아서 업데이트
                 findSafeArea()
 
+                // 전체 보드를 다시 원래대로 돌려놓기
                 board = initBoard
                 c += 1
             }
