@@ -46,6 +46,7 @@
 |2668|[숫자고르기](https://www.acmicpc.net/problem/2668)|🟡||
 |3190|[뱀](https://www.acmicpc.net/problem/3190)|🟢||
 |1941|[소문난 칠공주](https://www.acmicpc.net/problem/1941)|🟢||
+|7432|[소문난 칠공주](https://www.acmicpc.net/problem/7432)|🟡||
 
 ## 프로그래머스
 

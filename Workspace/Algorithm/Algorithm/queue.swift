@@ -32,60 +32,60 @@ struct Queue<T> {
     }
 }
 
-// 스택 두개로 구현한 큐
-struct DoubleStackQueue<T> {
-    var inbox: [T] = []
-    var outbox: [T] = []
-
-    var isEmpty: Bool {
-        return inbox.isEmpty && outbox.isEmpty
-    }
-
-    var count: Int {
-        return inbox.count + outbox.count
-    }
-
-    var front: T? {
-        return outbox.last ?? inbox.first
-    }
-
-    mutating func enqueue(_ input: T) {
-        inbox.append(input)
-    }
-    
-    @discardableResult
-    mutating func dequeue() -> T? {
-        if outbox.isEmpty {
-            outbox = inbox.reversed()
-            inbox.removeAll()
-        }
-        return outbox.popLast()
-    }
-    
-    mutating func clear() {
-        outbox.removeAll()
-        inbox.removeAll()
-    }
-
-    func printQueue() {
-        var output = ""
-
-        if isEmpty {
-            print("Queue is Empty")
-            return
-        }
-
-        for o in outbox.reversed() {
-            output += "\(o) "
-        }
-        
-        for i in inbox {
-            output += "\(i) "
-        }
-        
-        print(output)
-    }
-}
+//// 스택 두개로 구현한 큐
+//struct DoubleStackQueue<T> {
+//    var inbox: [T] = []
+//    var outbox: [T] = []
+//
+//    var isEmpty: Bool {
+//        return inbox.isEmpty && outbox.isEmpty
+//    }
+//
+//    var count: Int {
+//        return inbox.count + outbox.count
+//    }
+//
+//    var front: T? {
+//        return outbox.last ?? inbox.first
+//    }
+//
+//    mutating func enqueue(_ input: T) {
+//        inbox.append(input)
+//    }
+//    
+//    @discardableResult
+//    mutating func dequeue() -> T? {
+//        if outbox.isEmpty {
+//            outbox = inbox.reversed()
+//            inbox.removeAll()
+//        }
+//        return outbox.popLast()
+//    }
+//    
+//    mutating func clear() {
+//        outbox.removeAll()
+//        inbox.removeAll()
+//    }
+//
+//    func printQueue() {
+//        var output = ""
+//
+//        if isEmpty {
+//            print("Queue is Empty")
+//            return
+//        }
+//
+//        for o in outbox.reversed() {
+//            output += "\(o) "
+//        }
+//        
+//        for i in inbox {
+//            output += "\(i) "
+//        }
+//        
+//        print(output)
+//    }
+//}
 
 // 덱 자료구조 (양방향 큐)
 struct Deque<T> {
