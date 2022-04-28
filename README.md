@@ -94,3 +94,4 @@
 |[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|||
 |[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)|🟢|🟢|
 |[N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)|||
+|[다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)|🟢||

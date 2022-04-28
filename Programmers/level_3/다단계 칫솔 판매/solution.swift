@@ -1,14 +1,3 @@
-import Foundation
-
-let enroll = ["john", "mary", "edward", "sam", "emily", "jaimie", "tod", "young"]
-let referral = ["-", "-", "mary", "edward", "mary", "mary", "jaimie", "edward"]
-let seller = ["young", "john", "tod", "emily", "mary"]
-let amount = [12, 4, 2, 5, 10]
-
-solution(enroll, referral, seller, amount)
-
-// MARK: 선언
-
 func solution(_ enroll: [String], _ referral: [String], _ seller: [String], _ amount: [Int]) -> [Int] {
     var dict: [String: Person] = [:]
 
