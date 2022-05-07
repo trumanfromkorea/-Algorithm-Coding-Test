@@ -1,12 +1,3 @@
-import Foundation
-
-let param1 = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
-let param2 = ["ShiftRow", "Rotate", "ShiftRow", "Rotate"]
-
-let result = solution(param1, param2)
-print(result)
-
-// MARK: - 선언
 
 import Foundation
 
@@ -63,11 +54,8 @@ func solution(_ rc: [[Int]], _ operations: [String]) -> [[Int]] {
             
             board = Array(sliced) + Array(restof)
         } else {
-            
             findStart(&board, option.count%R, rotateList(board))
-//            for _ in 0 ..< option.count % R {
-//                rotate(&board)
-//            }
+
         }
     }
 
