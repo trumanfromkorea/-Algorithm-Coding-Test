@@ -1,13 +1,3 @@
-import Foundation
-
-let param1 = "02:03:55"
-let param2 = "00:14:15"
-let param3 = ["01:20:15-01:45:14", "00:40:31-01:00:00", "00:25:50-00:48:29", "01:30:59-01:53:29", "01:37:44-02:02:30"]
-
-let result = solution(param1, param2, param3)
-print(result)
-
-// MARK: - 선언
 
 func solution(_ play_time: String, _ adv_time: String, _ logs: [String]) -> String {
     if play_time == adv_time {
