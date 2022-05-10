@@ -48,6 +48,7 @@
 |1941|[소문난 칠공주](https://www.acmicpc.net/problem/1941)|🟢||
 |7432|[디스크 트리](https://www.acmicpc.net/problem/7432)|🟡||
 |1937|[욕심쟁이 판다](https://www.acmicpc.net/problem/1937)|🟡||
+|2003|[수들의 합 2](https://www.acmicpc.net/problem/2003)|🟢||
 
 ## 프로그래머스
 
