@@ -50,6 +50,7 @@
 |1937|[욕심쟁이 판다](https://www.acmicpc.net/problem/1937)|🟡||
 |2003|[수들의 합 2](https://www.acmicpc.net/problem/2003)|🟢||
 |10815|[숫자 카드](https://www.acmicpc.net/problem/10815)|🟢||
+|1484|[다이어트](https://www.acmicpc.net/problem/1484)|🟢||
 
 ## 프로그래머스
 
