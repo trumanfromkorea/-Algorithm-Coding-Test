@@ -51,6 +51,7 @@
 |2003|[수들의 합 2](https://www.acmicpc.net/problem/2003)|🟢||
 |10815|[숫자 카드](https://www.acmicpc.net/problem/10815)|🟢||
 |1484|[다이어트](https://www.acmicpc.net/problem/1484)|🟢||
+|16197|[두 동전](https://www.acmicpc.net/problem/16197)|🟢||
 
 ## 프로그래머스
 
