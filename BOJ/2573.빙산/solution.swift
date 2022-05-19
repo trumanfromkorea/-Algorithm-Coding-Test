@@ -56,6 +56,8 @@ func solution() {
             }
         }
     }
+    
+    print(0)
 }
 
 
