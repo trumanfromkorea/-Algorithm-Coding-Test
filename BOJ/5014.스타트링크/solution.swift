@@ -12,6 +12,12 @@ if start == end {
 } else {
     BFS()
 }
+// MARK: - 선언
+
+struct Floor {
+    var floor: Int
+    var count: Int
+}
 
 func BFS() {
     queue.enqueue(Floor(floor: start, count: 0))
@@ -44,13 +50,6 @@ func BFS() {
     }
 
     print("use the stairs")
-}
-
-// MARK: - 선언
-
-struct Floor {
-    var floor: Int
-    var count: Int
 }
 
 // 스택 두개로 구현한 큐

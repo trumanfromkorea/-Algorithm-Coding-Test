@@ -52,6 +52,7 @@
 |10815|[숫자 카드](https://www.acmicpc.net/problem/10815)|🟢||
 |1484|[다이어트](https://www.acmicpc.net/problem/1484)|🟢||
 |16197|[두 동전](https://www.acmicpc.net/problem/16197)|🟢||
+|5014|[스타트링크](https://www.acmicpc.net/problem/5014)|🟢||
 
 ## 프로그래머스
 

@@ -7,33 +7,9 @@
 
 import Foundation
 
-// 큐
-struct Queue<T> {
-    private var queue: [T] = []
-
-    public var count: Int {
-        return queue.count
-    }
-
-    public var isEmpty: Bool {
-        return queue.isEmpty
-    }
-
-    public mutating func enqueue(_ element: T) {
-        queue.append(element)
-    }
-
-    public mutating func dequeue() -> T? {
-        return isEmpty ? nil : queue.removeFirst()
-    }
-
-    public mutating func clear() {
-        queue.removeAll()
-    }
-}
 
 //// 스택 두개로 구현한 큐
-//struct DoubleStackQueue<T> {
+// struct DoubleStackQueue<T> {
 //    var inbox: [T] = []
 //    var outbox: [T] = []
 //
@@ -52,7 +28,7 @@ struct Queue<T> {
 //    mutating func enqueue(_ input: T) {
 //        inbox.append(input)
 //    }
-//    
+//
 //    @discardableResult
 //    mutating func dequeue() -> T? {
 //        if outbox.isEmpty {
@@ -61,7 +37,7 @@ struct Queue<T> {
 //        }
 //        return outbox.popLast()
 //    }
-//    
+//
 //    mutating func clear() {
 //        outbox.removeAll()
 //        inbox.removeAll()
@@ -78,14 +54,14 @@ struct Queue<T> {
 //        for o in outbox.reversed() {
 //            output += "\(o) "
 //        }
-//        
+//
 //        for i in inbox {
 //            output += "\(i) "
 //        }
-//        
+//
 //        print(output)
 //    }
-//}
+// }
 
 // 덱 자료구조 (양방향 큐)
 struct Deque<T> {
@@ -107,7 +83,7 @@ struct Deque<T> {
     mutating func appendLast(_ input: T) {
         rightBox.append(input)
     }
-    
+
     @discardableResult
     mutating func popFirst() -> T? {
         if leftBox.isEmpty {
