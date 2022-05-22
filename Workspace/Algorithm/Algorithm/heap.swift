@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//
+
 struct Heap<T: Comparable> {
     var heap: [T]
 
@@ -70,7 +70,7 @@ struct Heap<T: Comparable> {
         }
     }
 
-    // 루트노드 값 제자리 찾기 (원래 원소 삭제 시 많이 쓰임)
+    // 원소 삭제 시 노드 하강
     mutating func shiftDown(i: Int) {
         var now: Int = i
         // 자식 노드 인덱스

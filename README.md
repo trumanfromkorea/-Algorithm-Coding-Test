@@ -55,6 +55,7 @@
 |5014|[스타트링크](https://www.acmicpc.net/problem/5014)|🟢||
 |2573|[빙산](https://www.acmicpc.net/problem/2573)|🟢||
 |10282|[해킹](https://www.acmicpc.net/problem/10282)|🟡||
+|18352|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|🟢||
 
 ## 프로그래머스
 
