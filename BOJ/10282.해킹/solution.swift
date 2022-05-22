@@ -1,7 +1,5 @@
 import Foundation
 
-import Foundation
-
 let cases = Int(readLine()!)!
 
 var (n, d, c) = (0, 0, 0)
