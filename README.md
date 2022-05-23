@@ -57,6 +57,7 @@
 |10282|[해킹](https://www.acmicpc.net/problem/10282)|🟡||
 |18352|[특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)|🟢||
 |1790|[수 이어 쓰기 2](https://www.acmicpc.net/problem/1790)|🟡||
+|2467|[용액](https://www.acmicpc.net/problem/2467)|🟢||
 
 ## 프로그래머스
 
