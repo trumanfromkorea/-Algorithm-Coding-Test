@@ -95,6 +95,7 @@
 |[주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)|||
 |[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)|||
 |[스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|||
+|[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|🟡||
 
 ### 레벨 3
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
