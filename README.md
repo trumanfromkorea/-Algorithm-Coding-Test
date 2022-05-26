@@ -103,7 +103,7 @@
 |[두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644)|||
 |[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)|🟢||
 |[디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)|||
-|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|||
+|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|🟢||
 |[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)|🟢|🟢|
 |[N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)|||
 |[다단계 칫솔 판매](https://programmers.co.kr/learn/courses/30/lessons/77486)|🟡||

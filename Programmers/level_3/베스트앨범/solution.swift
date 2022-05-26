@@ -1,11 +1,3 @@
-import Foundation
-
-let param1 = ["classic", "pop", "classic", "classic", "pop"]
-let param2 = [500, 600, 150, 800, 2500]
-
-let result = solution(param1, param2)
-print(result)
-
 struct Genre {
     var play: Int
     var index: Int
