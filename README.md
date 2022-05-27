@@ -60,6 +60,9 @@
 |2467|[용액](https://www.acmicpc.net/problem/2467)|🟢||
 |1725|[히스토그램](https://www.acmicpc.net/problem/1725)|🟡||
 |17609|[회문](https://www.acmicpc.net/problem/17609)|🟡||
+|2941|[크로아티아 알파벳](https://www.acmicpc.net/problem/2941)|🟢||
+|1541|[잃어버린 괄호](https://www.acmicpc.net/problem/1541)|🟢||
+|5430|[AC](https://www.acmicpc.net/problem/5430)|🟡||
 
 ## 프로그래머스
 
