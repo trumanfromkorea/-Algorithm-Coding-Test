@@ -63,6 +63,8 @@
 |2941|[크로아티아 알파벳](https://www.acmicpc.net/problem/2941)|🟢||
 |1541|[잃어버린 괄호](https://www.acmicpc.net/problem/1541)|🟢||
 |5430|[AC](https://www.acmicpc.net/problem/5430)|🟡||
+|16916|[부분 문자열](https://www.acmicpc.net/problem/16916)|🔴||
+|17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|🟢||
 
 ## 프로그래머스
 
