@@ -66,6 +66,7 @@
 |16916|[부분 문자열](https://www.acmicpc.net/problem/16916)|🔴||
 |17413|[단어 뒤집기 2](https://www.acmicpc.net/problem/17413)|🟢||
 |13305|[주유소](https://www.acmicpc.net/problem/13305)|🟡||
+|1966|[프린터 큐](https://www.acmicpc.net/problem/1966)|🟢||
 
 ## 프로그래머스
 
