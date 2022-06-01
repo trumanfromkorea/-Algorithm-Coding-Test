@@ -69,6 +69,7 @@
 |1966|[프린터 큐](https://www.acmicpc.net/problem/1966)|🟢||
 |2564|[경비원](https://www.acmicpc.net/problem/2564)|🟢||
 |2461|[대표 선수](https://www.acmicpc.net/problem/2461)|🟡||
+|1806|[부분합](https://www.acmicpc.net/problem/1806)|🟢||
 
 ## 프로그래머스
 
