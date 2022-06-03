@@ -1,7 +1,3 @@
-import Foundation
-
-solution("one4seveneight")
-
 func solution(_ s: String) -> Int {
     let dict: [String: String] = [
         "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4",

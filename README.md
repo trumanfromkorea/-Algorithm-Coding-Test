@@ -82,6 +82,7 @@
 |[K번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)|||
 |[모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)|||
 |[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|||
+|[숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)|🟢||
 
 ### 레벨 2
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
