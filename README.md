@@ -70,6 +70,7 @@
 |2564|[경비원](https://www.acmicpc.net/problem/2564)|🟢||
 |2461|[대표 선수](https://www.acmicpc.net/problem/2461)|🟡||
 |1806|[부분합](https://www.acmicpc.net/problem/1806)|🟢||
+|2056|[작업](https://www.acmicpc.net/problem/2056)|🟡||
 
 ## 프로그래머스
 
