@@ -124,3 +124,4 @@
 |[순위](https://programmers.co.kr/learn/courses/30/lessons/49191)|🟡||
 |[광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)|🟢||
 |[양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343)|🟡||
+|[셔틀 버스](https://programmers.co.kr/learn/courses/30/lessons/17678)|🟢||
