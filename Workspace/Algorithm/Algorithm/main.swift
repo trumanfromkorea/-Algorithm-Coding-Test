@@ -1,50 +1,53 @@
 import Foundation
 
-func solution(_ n: Int, _ interval: Int, _ passengers: Int, _ timetable: [String]) -> String {
-    var queue = DoubleStackQueue<Int>()
-    var time = 540
-    var last = -1
-    var board = 0
+let n = Int(readLine()!)!
 
-    timetable.forEach { time in
-        let split = time.split(separator: ":").map { Int($0)! }
-        queue.enqueue(split[0] * 60 + split[1])
+var preBuild = Array(repeating: [Int](), count: n + 1) // 나를 선수 작업으로 치는 작업
+var degree = Array(repeating: 0, count: n + 1) // 차수
+var times = Array(repeating: 0, count: n + 1) // 걸리는 고유시간
+var DP = Array(repeating: 0, count: n + 1) // 총 시간
+
+for i in 1 ... n {
+    let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+
+    times[i] = input[0]
+
+    for j in 0 ..< input[1] {
+        degree[i] += 1
+        preBuild[input[j + 2]].append(i)
     }
-    
-    queue.inbox.sort()
+}
 
-    for _ in 0 ..< n {
-        board = 0
-        for _ in 0 ..< passengers {
-            if !queue.isEmpty {
-                if queue.front! <= time {
-                    last = queue.dequeue()!
-                    board += 1
-                }
-            }
+var queue = DoubleStackQueue<Int>()
+
+for i in 1 ... n {
+    if degree[i] == 0 {
+        queue.enqueue(i)
+    }
+
+    DP[i] += times[i]
+}
+
+var index = 0
+
+while !queue.isEmpty {
+    let now = queue.dequeue()!
+
+    for i in 0 ..< preBuild[now].count {
+        let next = preBuild[now][i]
+
+        DP[next] = max(DP[next], DP[now] + times[next])
+
+        degree[next] -= 1
+
+        if degree[next] == 0 {
+            queue.enqueue(next)
         }
-
-        time += interval
     }
-
-    if last == -1 {
-        return generateTime(time - interval)
-    } else {
-        return board == passengers ? generateTime(last - 1) : generateTime(time - interval)
-    }
+    index += 1
 }
 
-func generateTime(_ time: Int) -> String {
-    var result = ""
-
-    let hour = time / 60
-    let min = time % 60
-
-    result += hour < 10 ? "0\(hour):" : "\(hour):"
-    result += min < 10 ? "0\(min)" : "\(min)"
-
-    return result
-}
+print(DP.max()!)
 
 struct DoubleStackQueue<T> {
     var inbox: [T] = []
@@ -52,10 +55,6 @@ struct DoubleStackQueue<T> {
 
     var isEmpty: Bool {
         return inbox.isEmpty && outbox.isEmpty
-    }
-
-    var count: Int {
-        return inbox.count + outbox.count
     }
 
     var front: T? {
@@ -74,5 +73,4 @@ struct DoubleStackQueue<T> {
         }
         return outbox.popLast()
     }
-
 }

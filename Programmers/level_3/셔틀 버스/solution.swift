@@ -6,12 +6,10 @@ func solution(_ n: Int, _ interval: Int, _ passengers: Int, _ timetable: [String
     var last = -1
     var board = 0
 
-    timetable.forEach { time in
+    timetable.sorted().forEach { time in
         let split = time.split(separator: ":").map { Int($0)! }
         queue.enqueue(split[0] * 60 + split[1])
     }
-    
-    queue.inbox.sort()
 
     for _ in 0 ..< n {
         board = 0

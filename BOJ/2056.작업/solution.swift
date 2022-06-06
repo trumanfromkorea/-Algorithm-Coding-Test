@@ -2,10 +2,10 @@ import Foundation
 
 let n = Int(readLine()!)!
 
-var preBuild = Array(repeating: [Int](), count: n + 1)
-var line = Array(repeating: 0, count: n + 1)
-var DP = Array(repeating: 0, count: n + 1)
-var times = Array(repeating: 0, count: n + 1)
+var preBuild = Array(repeating: [Int](), count: n + 1) // 나를 선수 작업으로 치는 작업
+var degree = Array(repeating: 0, count: n + 1) // 차수
+var times = Array(repeating: 0, count: n + 1) // 걸리는 고유시간
+var DP = Array(repeating: 0, count: n + 1) // 총 시간
 
 for i in 1 ... n {
     let input = readLine()!.split(separator: " ").map { Int(String($0))! }
@@ -13,7 +13,7 @@ for i in 1 ... n {
     times[i] = input[0]
 
     for j in 0 ..< input[1] {
-        line[i] += 1
+        degree[i] += 1
         preBuild[input[j + 2]].append(i)
     }
 }
@@ -21,7 +21,7 @@ for i in 1 ... n {
 var queue = DoubleStackQueue<Int>()
 
 for i in 1 ... n {
-    if line[i] == 0 {
+    if degree[i] == 0 {
         queue.enqueue(i)
     }
 
@@ -38,9 +38,9 @@ while !queue.isEmpty {
 
         DP[next] = max(DP[next], DP[now] + times[next])
 
-        line[next] -= 1
+        degree[next] -= 1
 
-        if line[next] == 0 {
+        if degree[next] == 0 {
             queue.enqueue(next)
         }
     }
