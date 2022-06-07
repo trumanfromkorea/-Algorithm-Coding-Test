@@ -71,6 +71,7 @@
 |2461|[대표 선수](https://www.acmicpc.net/problem/2461)|🟡||
 |1806|[부분합](https://www.acmicpc.net/problem/1806)|🟢||
 |2056|[작업](https://www.acmicpc.net/problem/2056)|🟡||
+|1931|[회의실 배정](https://www.acmicpc.net/problem/1931)|🟢||
 
 ## 프로그래머스
 
