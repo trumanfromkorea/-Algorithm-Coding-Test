@@ -72,6 +72,7 @@
 |1806|[부분합](https://www.acmicpc.net/problem/1806)|🟢||
 |2056|[작업](https://www.acmicpc.net/problem/2056)|🟡||
 |1931|[회의실 배정](https://www.acmicpc.net/problem/1931)|🟢||
+|1939|[중량제한](https://www.acmicpc.net/problem/1939)|🟡||
 
 ## 프로그래머스
 
