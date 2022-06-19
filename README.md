@@ -75,7 +75,7 @@
 |1939|[중량제한](https://www.acmicpc.net/problem/1939)|🟡||
 |14888|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|🟢||
 |9466|[텀 프로젝트](https://www.acmicpc.net/problem/9466)|🟡||
-|7453|[텀 프로젝트](https://www.acmicpc.net/problem/7453)|🟡||
+|7453|[합이 0인 네 정수](https://www.acmicpc.net/problem/7453)|🟡||
 
 ## 프로그래머스
 
