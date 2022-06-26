@@ -98,7 +98,7 @@
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)|||
 |[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)|🟢||
 |[더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)|||
-|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|||
+|[타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)|🟢||
 |[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|||
 |[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)|||
 |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|||
