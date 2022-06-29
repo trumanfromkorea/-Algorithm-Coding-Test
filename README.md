@@ -102,7 +102,7 @@
 |[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)|||
 |[프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)|||
 |[가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)|||
-|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|||
+|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)|🟢||
 |[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)|||
 |[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|🟢||
 |[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)|||

@@ -1,58 +1,22 @@
 import Foundation
 
-func solution(_ s: String) -> Int {
-    if s.count < 3 { return s.count }
+let imagePaths = ["star": "/glyphs/star.png",
+                  "portrait": "/images/content/portrait.jpg",
+                  "spacer": "/images/shared/spacer.gif"]
 
-    var result: Int = s.count
-
-    for length in 1 ... s.count / 2 {
-        let slicedString = sliceString(s, length)
-        let compressedString = compressString(slicedString)
-        let length = compressedString.count
-        result = min(result, length)
-    }
-
-    return result
+if let starPath = imagePaths["star"] {
+    print("The star image is at '\(starPath)'")
+} else {
+    print("Couldn't find the star image")
 }
 
-func sliceString(_ str: String, _ length: Int) -> [String] {
-    var result: [String] = []
-    var temp = ""
-
-    for s in str {
-        temp += String(s)
-        if temp.count >= length {
-            result.append(temp)
-            temp = ""
-        }
-    }
-
-    if !temp.isEmpty {
-        result.append(temp)
-    }
-    return result
+if imagePaths["star"]?.hasSuffix(".png") == true {
+    print("The star image is in PNG format")
 }
 
-func compressString(_ array: [String]) -> String {
-    var result: String = ""
-    var temp: String = ""
-    var count: Int = 1
-    
-    for str in array {
-        if temp == str {
-            count += 1
-            continue
-        }
-        
-        if !temp.isEmpty {
-            result += count > 1 ? "\(count)\(temp)" : temp
-        }
-        temp = str
-        count = 1
-    }
-    
-    if !temp.isEmpty {
-        result += count > 1 ? "\(count)\(temp)" : temp
-    }
-    return result
-}
+let defaultImagePath = "/images/default.png"
+let heartPath = imagePaths["heart"] ?? defaultImagePath
+print(heartPath)
+
+let isPNG = imagePaths["star"]!.hasSuffix(".png")
+print(isPNG)
