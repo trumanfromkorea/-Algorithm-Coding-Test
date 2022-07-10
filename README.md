@@ -134,3 +134,4 @@
 |[양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343)|🟡||
 |[셔틀 버스](https://programmers.co.kr/learn/courses/30/lessons/17678)|🟢||
 |[매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)|🟡||
+|[보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|🟡||
