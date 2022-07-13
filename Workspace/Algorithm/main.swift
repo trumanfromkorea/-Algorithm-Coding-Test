@@ -1,52 +1,37 @@
 import Foundation
 
-func solution(_ board: [[Int]]) -> Int {
-    enum Direction: Int {
-        case down, up, right, left
+let session = URLSession(configuration: .default)
+
+var urlComponents = URLComponents(string: "https://api.plkey.app/theme/review?")!
+urlComponents.queryItems?.append(URLQueryItem(name: "themeId", value: "6"))
+urlComponents.queryItems?.append(URLQueryItem(name: "start", value: "0"))
+urlComponents.queryItems?.append(URLQueryItem(name: "count", value: "20"))
+
+ session.dataTask(with: urlComponents.url!) { data, _, error in
+    guard let data = data, error == nil else {
+        return
     }
 
-    let costs = Array(repeating: Array(repeating: Int.max, count: board.count), count: board.count)
-    var dirCosts = Array(repeating: costs, count: 4)
+    print(data)
+ }
+ .resume()
 
-    let xDir = [0, 0, 1, -1]
-    let yDir = [1, -1, 0, 0]
+var urlPost = URLComponents(string: "https://api.plkey.app/tmp/theme/PLKEY0-L-81/review")!
+var json: [String: String] = ["content": "some content"]
 
-    for i in 0 ..< 4 {
-        dirCosts[i][0][0] = 0
+let jsonData = try? JSONSerialization.data(withJSONObject: json)
+
+var request = URLRequest(url: urlPost.url!)
+request.httpMethod = "POST"
+request.httpBody = jsonData
+
+session.dataTask(with: request) { data, response, error in
+    guard let data = data, let response = response as? HTTPURLResponse, error == nil else {
+        return
     }
+    
+    print(response.statusCode)
 
-    func DFS(_ x: Int, _ y: Int, _ currDir: Direction) {
-        let directions: [Direction] = [.down, .up, .right, .left]
+}.resume()
 
-        for i in 0 ..< 4 {
-            let nx = x + xDir[i]
-            let ny = y + yDir[i]
-            let nextDir = directions[i]
-            let nextCost = dirCosts[currDir.rawValue][x][y] + (currDir == nextDir ? 100 : 600)
-
-            guard isInRange(nx, ny, board.count),
-                  dirCosts[i][nx][ny] > nextCost else {
-                continue
-            }
-
-            dirCosts[i][nx][ny] = nextCost
-
-            if board[nx][ny] != 1 {
-                DFS(nx, ny, nextDir)
-            }
-        }
-    }
-
-    DFS(0, 0, .up)
-    DFS(0, 0, .left)
-    DFS(0, 0, .right)
-    DFS(0, 0, .down)
-
-    let result = dirCosts.map { $0[board.count - 1][board.count - 1] }.min()!
-
-    return result
-}
-
-func isInRange(_ x: Int, _ y: Int, _ n: Int) -> Bool {
-    return x >= 0 && x < n && y >= 0 && y < n
-}
+sleep(10)
