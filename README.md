@@ -117,6 +117,8 @@
 |[스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|||
 |[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|🟡||
 |[수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)|🟡||
+|[튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)|🟢||
+
 
 ### 레벨 3
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|

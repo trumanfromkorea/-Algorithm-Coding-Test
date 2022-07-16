@@ -103,4 +103,4 @@ let customFilter = array.customFilter { $0 % 2 == 0 }
 let customReduce = array.customReduce(0) { result, item in
     result * item
 }
-print(customReduce)
+//print(customReduce)
