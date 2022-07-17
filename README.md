@@ -138,3 +138,4 @@
 |[매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)|🟡||
 |[보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|🟡||
 |[불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)|🟢||
+|[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)|🟡||
