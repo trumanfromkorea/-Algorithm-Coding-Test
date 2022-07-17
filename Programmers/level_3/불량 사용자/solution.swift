@@ -1,11 +1,5 @@
 import Foundation
 
-let param1 = ["frodo", "fradi", "crodo", "abc123", "frodoc"]
-let param2 = ["*rodo", "*rodo", "******"]
-
-let result = solution(param1, param2)
-print(result)
-
 func solution(_ user_id: [String], _ banned_id: [String]) -> Int {
     var validation = [[String]]()
     var tempSet = Set<String>()
