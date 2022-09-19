@@ -139,3 +139,8 @@
 |[보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|🟡||
 |[불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)|🟢||
 |[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)|🟡||
+
+## 프로그래머스 카카오 기출
+### 2022 카카오 Tech 인턴십
+|문제|레벨|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
+|[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|Lv.2|🟢|

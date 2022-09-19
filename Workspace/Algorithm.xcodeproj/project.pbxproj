@@ -10,7 +10,6 @@
 		0D0E86FE287F0958002FD980 /* highOrderFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E86FD287F0958002FD980 /* highOrderFunc.swift */; };
 		0D12C393278DC5DA00430192 /* dynamic_programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12C392278DC5DA00430192 /* dynamic_programming.swift */; };
 		0D12C395278DC64300430192 /* dfs_bfs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12C394278DC64300430192 /* dfs_bfs.swift */; };
-		0D2F7BC727E5762B00ABF265 /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F7BC627E5762B00ABF265 /* temp.swift */; };
 		0D9BCD8927E23FAC0004047C /* heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BCD8827E23FAC0004047C /* heap.swift */; };
 		0DBD7760278F1FF4000F2CAC /* queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD775F278F1FF4000F2CAC /* queue.swift */; };
 		0DE3C7BB27873D990081810E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3C7BA27873D990081810E /* main.swift */; };
@@ -32,7 +31,6 @@
 		0D0E86FD287F0958002FD980 /* highOrderFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highOrderFunc.swift; sourceTree = "<group>"; };
 		0D12C392278DC5DA00430192 /* dynamic_programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_programming.swift; sourceTree = "<group>"; };
 		0D12C394278DC64300430192 /* dfs_bfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfs_bfs.swift; sourceTree = "<group>"; };
-		0D2F7BC627E5762B00ABF265 /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp.swift; sourceTree = "<group>"; };
 		0D9BCD8827E23FAC0004047C /* heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heap.swift; sourceTree = "<group>"; };
 		0DBD775F278F1FF4000F2CAC /* queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = queue.swift; sourceTree = "<group>"; };
 		0DE3C7B727873D990081810E /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +51,6 @@
 		0DE3C7AE27873D990081810E = {
 			isa = PBXGroup;
 			children = (
-				0D2F7BC627E5762B00ABF265 /* temp.swift */,
 				0DE3C7B927873D990081810E /* Algorithm */,
 				0DE3C7B827873D990081810E /* Products */,
 			);
@@ -144,7 +141,6 @@
 				0D12C393278DC5DA00430192 /* dynamic_programming.swift in Sources */,
 				0D9BCD8927E23FAC0004047C /* heap.swift in Sources */,
 				0DBD7760278F1FF4000F2CAC /* queue.swift in Sources */,
-				0D2F7BC727E5762B00ABF265 /* temp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
