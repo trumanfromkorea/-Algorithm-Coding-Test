@@ -143,5 +143,5 @@
 ## 프로그래머스 카카오 기출
 ### 2022 카카오 Tech 인턴십
 |문제|레벨|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
-|---|---|---|
 |[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|`Lv.2`|🟢|
+|[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|`Lv.1`|🟢|
