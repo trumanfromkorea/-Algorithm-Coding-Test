@@ -1,11 +1,5 @@
+
 import Foundation
-
-let result = solution(
-    [180, 5000, 10, 600],
-    []
-)
-
-print(result)
 
 class Car {
     var id: String
@@ -64,7 +58,7 @@ func solution(_ fees: [Int], _ records: [String]) -> [Int] {
         }
 
         let div = ceil(Double($0.duration) / Double(fees[2]))
-        result += fees[3] * Int(div)
+        result += fees[3] * (Int(div) ?? 1)
 
         $0.fee = result
     }
