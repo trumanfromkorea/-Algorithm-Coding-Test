@@ -147,3 +147,4 @@
 |[두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|`Lv.2`|🟢|
 |[성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)|`Lv.1`|🟢|
 |[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)|`Lv.2`|🟢|
+|[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)|`Lv.1`|🟢|

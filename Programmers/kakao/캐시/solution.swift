@@ -1,7 +1,3 @@
-import Foundation
-
-solution(0, ["Jeju", "Pangyo", "Seoul", "NewYork", "LA"])
-
 func solution(_ cacheSize: Int, _ cities: [String]) -> Int {
     var answer = 0
     var cache: [String] = []
