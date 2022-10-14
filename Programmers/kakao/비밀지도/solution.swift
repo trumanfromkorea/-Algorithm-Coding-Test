@@ -1,11 +1,3 @@
-import Foundation
-
-solution(
-    5,
-    [9, 20, 28, 18, 11],
-    [30, 1, 21, 17, 28]
-)
-
 func solution(_ n: Int, _ arr1: [Int], _ arr2: [Int]) -> [String] {
     var answer: [String] = []
 
@@ -32,9 +24,10 @@ func solution(_ n: Int, _ arr1: [Int], _ arr2: [Int]) -> [String] {
 func expand(bin: String, n: Int) -> String {
     var result = bin
     
-    for i in 0 ..< n - bin.count {
+    for _ in 0 ..< n - bin.count {
         result = "0" + result
     }
     
     return result
 }
+
