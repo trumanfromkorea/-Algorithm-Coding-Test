@@ -1,40 +1,37 @@
+// 파스칼의 삼각형
+//
+// 1
+// 1 1
+// 1 2 1
+// 1 3 3 1
+// 1 4 6 4 1
+// ...
+
 import Foundation
 
-solution(
-    5,
-    [9, 20, 28, 18, 11],
-    [30, 1, 21, 17, 28]
-)
+let input = Int(readLine()!)!
+var answer = ""
 
-func solution(_ n: Int, _ arr1: [Int], _ arr2: [Int]) -> [String] {
-    var answer: [String] = []
+var pascal = Array(repeating: Array(repeating: 0, count: 31), count: 31)
 
-    for (num1, num2) in zip(arr1, arr2) {
-        var result = ""
-        
-        let bin1 = expand(bin: String(num1, radix: 2), n: n)
-        let bin2 = expand(bin: String(num2, radix: 2), n: n)
-        
-        for (item1, item2) in zip(bin1, bin2) {
-            if String(item1) == "0" && String(item2) == "0" {
-                result += " "
-            } else {
-                result += "#"
-            }
+pascal[0][0] = 1
+
+for i in 1 ... 30 {
+    for j in 0 ... 30 {
+        if j == 0 {
+            pascal[i][j] = 1
+            continue
         }
-        
-        answer.append(result)
+        pascal[i][j] = pascal[i - 1][j] + pascal[i - 1][j - 1]
     }
-
-    return answer
 }
 
-func expand(bin: String, n: Int) -> String {
-    var result = bin
-    
-    for i in 0 ..< n - bin.count {
-        result = "0" + result
-    }
-    
-    return result
+for _ in 0 ..< input {
+    let line = readLine()!.split(separator: " ").map { Int($0)! }
+
+    let (n, m) = (line[0], line[1])
+
+    answer += "\(pascal[m][n])\n"
 }
+
+print(answer)
