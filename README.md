@@ -78,6 +78,7 @@
 |7453|[합이 0인 네 정수](https://www.acmicpc.net/problem/7453)|🟡||
 |2110|[공유기 설치](https://www.acmicpc.net/problem/2110)|🟡||
 |1010|[다리 놓기](https://www.acmicpc.net/problem/1010)|🟡||
+|15728|[에리-카드](https://www.acmicpc.net/problem/15728)|🟢||
 
 ## 프로그래머스
 
