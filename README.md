@@ -79,6 +79,7 @@
 |2110|[공유기 설치](https://www.acmicpc.net/problem/2110)|🟡||
 |1010|[다리 놓기](https://www.acmicpc.net/problem/1010)|🟡||
 |15728|[에리-카드](https://www.acmicpc.net/problem/15728)|🟢||
+|1347|[미로 만들기](https://www.acmicpc.net/problem/1347)|🟢||
 
 ## 프로그래머스
 
