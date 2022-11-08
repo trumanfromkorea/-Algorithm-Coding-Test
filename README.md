@@ -121,7 +121,7 @@
 |[스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)|||
 |[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|🟡||
 |[수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)|🟡||
-|[튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065)|🟢||
+|[튜플](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|🟢||
 
 
 ### 레벨 3
@@ -143,6 +143,7 @@
 |[보석 쇼핑](https://school.programmers.co.kr/learn/courses/30/lessons/67258)|🟡||
 |[불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)|🟢||
 |[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)|🟡||
+|[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/64064)|🟢||
 
 ## 프로그래머스 카카오 기출
 ### 2022 카카오 Tech 인턴십

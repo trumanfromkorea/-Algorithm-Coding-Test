@@ -1,15 +1,5 @@
 import Foundation
 
-// let n = 110011
-// let k = 10
-// let result = solution(n, k)
-// print(result)
-
-let test = primes(1000000).map { isPrime($0) }.contains(false)
-print(test)
-
-// MARK: - Solution
-
 func solution(_ n: Int, _ k: Int) -> Int {
     var answer = 0
     let radix = String(n, radix: k)
@@ -32,9 +22,9 @@ func isPrime(_ n: Int) -> Bool {
     if n == 2 { return true }
 
     let squared = sqrt(Double(n))
-    let div = Int(squared)
+    let div = Int(ceil(squared))
 
-    for i in 2 ... div + 1 {
+    for i in 2 ... div {
         if n % i == 0 {
             return false
         }
