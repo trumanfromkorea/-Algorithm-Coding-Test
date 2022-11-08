@@ -80,6 +80,7 @@
 |1010|[다리 놓기](https://www.acmicpc.net/problem/1010)|🟡||
 |15728|[에리-카드](https://www.acmicpc.net/problem/15728)|🟢||
 |1347|[미로 만들기](https://www.acmicpc.net/problem/1347)|🟢||
+|10816|[숫자 카드 2](https://www.acmicpc.net/problem/10816)|🟢||
 
 ## 프로그래머스
 
