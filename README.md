@@ -122,6 +122,7 @@
 |[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|🟡||
 |[수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)|🟡||
 |[튜플](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|🟢||
+|[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|🟢||
 
 
 ### 레벨 3
