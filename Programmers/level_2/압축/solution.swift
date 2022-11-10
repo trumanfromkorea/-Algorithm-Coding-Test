@@ -1,7 +1,3 @@
-import Foundation
-
-solution("ABABABABABABABAB")
-
 func solution(_ msg: String) -> [Int] {
     var answer: [Int] = []
 
@@ -39,12 +35,11 @@ func solution(_ msg: String) -> [Int] {
         lastIndex += 1
         dict[key] = lastIndex
         
-        print(last)
-
         if index >= message.count { break }
     }
 
-    print(answer)
-
     return answer
 }
+
+
+
