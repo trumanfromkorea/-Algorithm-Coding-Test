@@ -83,6 +83,7 @@
 |10816|[숫자 카드 2](https://www.acmicpc.net/problem/10816)|🟢||
 |17086|[아기 상어 2](https://www.acmicpc.net/problem/17086)|🟡||
 |1743|[음식물 피하기](https://www.acmicpc.net/problem/1743)|🟢||
+|21937|[작업](https://www.acmicpc.net/problem/21937)|🟢||
 
 ## 프로그래머스
 
