@@ -84,6 +84,7 @@
 |17086|[아기 상어 2](https://www.acmicpc.net/problem/17086)|🟡||
 |1743|[음식물 피하기](https://www.acmicpc.net/problem/1743)|🟢||
 |21937|[작업](https://www.acmicpc.net/problem/21937)|🟢||
+|1822|[차집합](https://www.acmicpc.net/problem/1822)|🟢||
 
 ## 프로그래머스
 
