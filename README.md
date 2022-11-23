@@ -85,6 +85,7 @@
 |1743|[음식물 피하기](https://www.acmicpc.net/problem/1743)|🟢||
 |21937|[작업](https://www.acmicpc.net/problem/21937)|🟢||
 |1822|[차집합](https://www.acmicpc.net/problem/1822)|🟢||
+|1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|🟢||
 
 ## 프로그래머스
 
