@@ -86,6 +86,7 @@
 |21937|[작업](https://www.acmicpc.net/problem/21937)|🟢||
 |1822|[차집합](https://www.acmicpc.net/problem/1822)|🟢||
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|🟢||
+|16926|[배열 돌리기 1](https://www.acmicpc.net/problem/16926)|🟡||
 
 ## 프로그래머스
 
