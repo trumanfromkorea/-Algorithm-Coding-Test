@@ -130,6 +130,7 @@
 |[튜플](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|🟢||
 |[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|🟢||
 |[N진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687)|🟢||
+|[행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)|🟢||
 
 
 ### 레벨 3
