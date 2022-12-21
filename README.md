@@ -88,6 +88,7 @@
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|🟢||
 |16926|[배열 돌리기 1](https://www.acmicpc.net/problem/16926)|🟡||
 |11659|[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|🟢||
+|11053|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|🟡||
 
 ## 프로그래머스
 
