@@ -91,6 +91,7 @@
 |11053|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|🟡||
 |11403|[경로 찾기](https://www.acmicpc.net/problem/11403)|🟡||
 |13549|[숨바꼭질 3](https://www.acmicpc.net/problem/13549)|🟢||
+|19941|[햄버거 분배](https://www.acmicpc.net/problem/19941)|🟡||
 
 ## 프로그래머스
 
