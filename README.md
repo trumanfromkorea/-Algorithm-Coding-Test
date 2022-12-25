@@ -93,6 +93,7 @@
 |13549|[숨바꼭질 3](https://www.acmicpc.net/problem/13549)|🟢||
 |19941|[햄버거 분배](https://www.acmicpc.net/problem/19941)|🟡||
 |1965|[상자넣기](https://www.acmicpc.net/problem/1965)|🟢||
+|2659|[십자카드 문제](https://www.acmicpc.net/problem/2659)|🟢||
 
 ## 프로그래머스
 
