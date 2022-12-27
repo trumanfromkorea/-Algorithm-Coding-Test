@@ -1,13 +1,3 @@
-import Foundation
-// import Glibc
-
-// you can write to stdout for debugging purposes, e.g.
-// print("this is a debug message")
-
-// 문자는 짝수, 숫자는 홀수
-var string = "test 5 a0A pass007 ?xy1"
-print(solution(&string))
-
 public func solution(_ S: inout String) -> Int {
     // Implement your solution here
 
