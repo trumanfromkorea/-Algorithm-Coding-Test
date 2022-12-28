@@ -175,3 +175,4 @@
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
 |---|---|
 |[LongestPassword](https://app.codility.com/programmers/trainings/1/longest_password/)|🟢|
+|[FloodDepth](https://app.codility.com/programmers/trainings/1/flood_depth/)|🟡|
