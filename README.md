@@ -177,3 +177,4 @@
 |[LongestPassword](https://app.codility.com/programmers/trainings/1/longest_password/)|🟢|
 |[FloodDepth](https://app.codility.com/programmers/trainings/1/flood_depth/)|🟡|
 |[TennisTournament](https://app.codility.com/programmers/trainings/3/tennis_tournament/)|🟢|
+|[FirstUnique](https://app.codility.com/programmers/trainings/4/first_unique/)|🟢|
