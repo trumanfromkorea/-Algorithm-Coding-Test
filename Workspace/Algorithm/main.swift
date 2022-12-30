@@ -1,50 +1,31 @@
 import Foundation
-// import Glibc
 
-// you can write to stdout for debugging purposes, e.g.
-// print("this is a debug message")
-
-// 문자는 짝수, 숫자는 홀수
-var string = "test 5 a0A pass007 ?xy1"
-print(solution(&string))
-
-public func solution(_ S: inout String) -> Int {
-    // Implement your solution here
-
-    let lowercase = "abcdefghijklmnopqrstuvwxyz".map { String($0) }
-    let uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".map { String($0) }
-    let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map { String($0) }
-
-    var result = -1
-
-    let passwords = S.components(separatedBy: " ")
-
-    for password in passwords {
-        var uppercaseCount = 0
-        var lowercaseCount = 0
-        var numberCount = 0
-        var isValid = true
-
-        for char in password.map({ String($0) }) {
-            if lowercase.contains(char) {
-                lowercaseCount += 1
-            } else if uppercase.contains(char) {
-                uppercaseCount += 1
-            } else if numbers.contains(char) {
-                numberCount += 1
-            } else {
-                isValid = false
-                break
-            }
-        }
-
-        if isValid
-            && (uppercaseCount + lowercaseCount) % 2 == 0
-            && numberCount % 2 == 1 {
-            result = max(result, password.count)
-        }
-    }
-
-
-    return result
+protocol AProtocol {
+    associatedtype AType
+    var model: AType { get set }
 }
+
+extension AProtocol where AType: BProtocol {
+    // 어떤 구현이나 선언...
+}
+
+struct A<T>: AProtocol {
+    typealias AType = T
+    var model: AType
+
+//    init() {
+//        model = C()
+//    }
+}
+
+extension A where T: BProtocol {
+    init() {
+        model = C()
+    }
+}
+
+protocol BProtocol {}
+struct B: BProtocol {}
+
+protocol CProtocol: BProtocol {}
+struct C: CProtocol {}
