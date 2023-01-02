@@ -94,6 +94,7 @@
 |19941|[햄버거 분배](https://www.acmicpc.net/problem/19941)|🟡||
 |1965|[상자넣기](https://www.acmicpc.net/problem/1965)|🟢||
 |2659|[십자카드 문제](https://www.acmicpc.net/problem/2659)|🟢||
+|15988|[1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988)|🟡||
 
 ## 프로그래머스
 
