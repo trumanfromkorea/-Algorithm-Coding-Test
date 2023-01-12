@@ -111,6 +111,7 @@
 |[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|||
 |[숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)|🟢||
 |[키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)|🟢||
+|[개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370)|🟢||
 
 ### 레벨 2
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
