@@ -97,6 +97,7 @@
 |15988|[1, 2, 3 더하기 3](https://www.acmicpc.net/problem/15988)|🟡||
 |14891|[톱니바퀴](https://www.acmicpc.net/problem/14891)|🟢||
 |1956|[운동](https://www.acmicpc.net/problem/1956)|🟡||
+|20291|[파일 정리](https://www.acmicpc.net/problem/20291)|🟢||
 
 ## 프로그래머스
 
