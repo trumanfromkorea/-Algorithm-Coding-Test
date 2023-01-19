@@ -176,6 +176,11 @@
 |[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)|`Lv.1`|🟢|
 |[비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|`Lv.1`|🟢|
 
+### 2023 카카오 Blind Recruitment
+|문제|레벨|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
+|---|---|---|
+|[이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)|`Lv.2`|🟢|
+
 ## Codility
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
 |---|---|
