@@ -98,6 +98,7 @@
 |14891|[톱니바퀴](https://www.acmicpc.net/problem/14891)|🟢||
 |1956|[운동](https://www.acmicpc.net/problem/1956)|🟡||
 |20291|[파일 정리](https://www.acmicpc.net/problem/20291)|🟢||
+|2805|[나무 자르기](https://www.acmicpc.net/problem/2805)|🟢||
 
 ## 프로그래머스
 
