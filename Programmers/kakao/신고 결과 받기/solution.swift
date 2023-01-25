@@ -1,11 +1,5 @@
 import Foundation
 
-let ids = ["muzi", "frodo", "apeach", "neo"]
-let reports = ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"]
-let k = 2
-
-solution(ids, reports, k)
-
 func solution(_ ids: [String], _ reports: [String], _ k: Int) -> [Int] {
     var users: [String: Set<String>] = [:]
     var reported: [String: Int] = [:]

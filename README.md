@@ -176,6 +176,7 @@
 |[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)|`Lv.2`|🟢|
 |[캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)|`Lv.1`|🟢|
 |[비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)|`Lv.1`|🟢|
+|[신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)|`Lv.1`|🟢|
 
 ### 2023 카카오 Blind Recruitment
 |문제|레벨|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|
