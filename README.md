@@ -144,7 +144,8 @@
 |[뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677)|🟢||
 |[N진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687)|🟢||
 |[행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)|🟢||
-|[시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)|🟢||
+|[시소 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/152996)|🟡||
+|[숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)|🟢||
 
 ### 레벨 3
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
