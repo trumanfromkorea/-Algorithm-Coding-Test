@@ -168,6 +168,8 @@
 |[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)|🟡||
 |[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/64064)|🟢||
 |[압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684)|🟢||
+|[인사고과](https://school.programmers.co.kr/learn/courses/30/lessons/152995)|🟡||
+
 
 ## 프로그래머스 카카오 기출
 ### 2022 카카오 Tech 인턴십
