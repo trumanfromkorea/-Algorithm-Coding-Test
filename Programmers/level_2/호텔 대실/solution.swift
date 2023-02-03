@@ -9,7 +9,7 @@ func solution(_ bookTime: [[String]]) -> Int {
 
     for i in 0 ..< bookTime.count {
         let start = timeStringToInt(bookTime[i][0])
-        let end = timeStringToInt(bookTime[i][1])
+        let end = timeStringToInt(bookTime[i][1]) + 9
 
         startTimes[start, default: 0] += 1
         endTimes[end, default: 0] += 1
