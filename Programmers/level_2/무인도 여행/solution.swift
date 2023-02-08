@@ -1,8 +1,5 @@
 import Foundation
 
-let lines = ["X591X", "X1X5X", "X231X", "1XXX1"]
-solution(lines)
-
 struct Node {
     let i: Int
     let j: Int

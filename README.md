@@ -148,6 +148,7 @@
 |[숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)|🟢||
 |[뒤에 있는 큰 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/154539)|🟡||
 |[호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)|🟢||
+|[무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)|🟢||
 
 ### 레벨 3
 |문제|<img alt="Swift" src="https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=Swift&logoColor=white" />|<img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white" />|
